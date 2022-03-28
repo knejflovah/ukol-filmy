@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 * {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
@@ -14,3 +14,29 @@ html {
   height: 1em;
   margin-right: 0.3em;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #333232;
+  background: #e7e5e3;
+}
+
+
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+

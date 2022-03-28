@@ -1,0 +1,27 @@
+.starring {
+    color:black;
+    display: flex;
+    max-width: 80px;
+    
+    float: left;
+   padding-top: 20px;
+   padding-right: 20px;
+    
+   
+}
+
+.as {
+font-size: normal;
+font-style:oblique;
+font-weight: lighter;
+font-size: 11px;
+white-space: pre-line;
+text-align: left;
+padding-left:0px;
+
+}
+
+.actor {
+    font-size: 11px;
+    
+}
